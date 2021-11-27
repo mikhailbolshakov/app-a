@@ -1,7 +1,7 @@
 package impl
 
 import (
-	"github.com/mikhailbolshakov/appB-proto"
+	"github.com/mikhailbolshakov/app-b/proto"
 )
 
 func Print() {
