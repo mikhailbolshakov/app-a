@@ -1,7 +1,5 @@
-module github.com/mikhailbolshakov/appA
+module github.com/mikhailbolshakov/app-a
 
 go 1.16
 
-replace github.com/mikhailbolshakov/appB-proto => ../appB/proto
-
-require github.com/mikhailbolshakov/appB-proto v0.0.0-00010101000000-000000000000
+require github.com/mikhailbolshakov/app-b/proto v1.0.0

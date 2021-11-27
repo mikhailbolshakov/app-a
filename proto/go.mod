@@ -1,3 +1,3 @@
-module github.com/mikhailbolshakov/appA-proto
+module github.com/mikhailbolshakov/appa/proto
 
 go 1.16
