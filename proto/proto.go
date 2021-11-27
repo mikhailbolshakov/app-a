@@ -1,9 +1,12 @@
 package proto
 
-import "fmt"
+import (
+	"github.com/mikhailbolshakov/app-b/proto"
+)
 
 type AppAProto struct {}
 
 func (a *AppAProto) Print() {
-	fmt.Println("AppA")
+	v := &proto.AppBProto{}
+	v.Print()
 }
